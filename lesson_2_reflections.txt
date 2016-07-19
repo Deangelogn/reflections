@@ -1,0 +1,4 @@
+1. O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+Após iniciar um repositório, uma pasta .git é inserida no diretório. Esta nova pasta aguarda toda a metadata dos arquivos, ou seja, ela armazena o estados dos arquivos quando um commit é feito.
+
