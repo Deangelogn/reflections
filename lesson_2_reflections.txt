@@ -2,3 +2,42 @@
 
 Após iniciar um repositório, uma pasta .git é inserida no diretório. Esta nova pasta aguarda toda a metadata dos arquivos, ou seja, ela armazena o estados dos arquivos quando um commit é feito.
 
+2. Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+A área de preparação do diretório contêm os arquivos que serão efetivamente enviados para o repositório. Essa pre-área de submissão de arquivos é muito util para especificar os arquivos que serão enviados para o diretório.
+
+3. Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+Enviando 1 arquivo por vez para a área de preparação, é possível garantir que cada commit tenha apenas uma alteração lógica.
+
+4. Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+Quando você quer fazer uma outra versão do projeto principal ou quer utilizar alguma tecnologia que não sabe se é arriscada, a criação de um novo branch pode ser a melhor para lidar com essas situações. Os branches fornecem segurança para o programador, pois eles possuem sues própios repositórios e não modificam o branch principal.
+
+
+5. Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Com o auxílio de diagramas é possível identificar os commits onde foram criados os novos branches, como também saber as semelhanças e as alterações entre cada branch.
+
+ 6. Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+A mesclagem de dois branches resultado em um novo branch que tem como seus pais as versões mais atuais dos branches mesclados. O novo branch é represetando dessa forma, pois ele possui ambos os hitóricos dos branches antecessores.
+ 
+ 7. Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+----- Mesclagem automática -----
+-prós
+* Ótimo para juntar trechos de códigos novos entre dois branches
+* Ganho de tempo, pois não é necessário o programador realizar as mudanças manualmente
+p´[.
+
+-contras
+* Não é capaz de resolver conflitos, onde o trecho de código possui multiplas (dois ou mais) alterações.
+
+----- Mesclagem manual -----
+-prós
+* Ótimo para a resolução de conflitos, pois o programdor pode decidir quais trechos do código devem ser adicionados ou removidos.
+
+-contras
+* Pode custar muito tempo, dependendo do número de conflitos.
+
