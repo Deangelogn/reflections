@@ -1,0 +1,4 @@
+1. Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+
+Gostaria de usar um repositório remoto quando estiver desenvolvendo algum projeto em grupo, pois desta forma,
+qualquer membro do time pode ter acesso e modificar os arquivos do projeto.
