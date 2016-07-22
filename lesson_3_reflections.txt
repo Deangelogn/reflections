@@ -2,3 +2,28 @@
 
 Gostaria de usar um repositório remoto quando estiver desenvolvendo algum projeto em grupo, pois desta forma,
 qualquer membro do time pode ter acesso e modificar os arquivos do projeto.
+
+2. Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
+
+Ao efetuar pull de alterações manualmente, é possível evitar bugs e conflitos desnecessários causados por alguem que realizou o push de arquivos errados ou incompletos.
+
+3. Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+
+Bifurcação - Utilizado para copiar um repostitório que seja seu e você não tem permissão para edita-lo.
+
+Clone - Utiliza-se quando deseja-se copiar um repositório do GitHub que seja seu ou que tenha permissão para edita-lo.
+
+Branches - Quando é preciso fazer alterações ou testes em um projeto, mas não deseja-se modificar o contéudo do master branch.
+
+4. Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+
+Desta forma você não perde as alterações feitas nos arquivos, após realizar o pull.
+
+5. Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
+
+sem Git ou GitHub, eu colaboraria utilizando alguma ferramente de compartilhamente de arquivos como o Dropbox. Apesar de já utilziado outras ferramentas para colaborar em um projeto, o Git e o GItHub possuem caracterisiticas melhoas em relação aos demais. Por exemplo, o git é capaz de armazenar os estados dos arquivos ao longo do desenvolvimento do projeto, por meio de commits. Além disso, é muito facíl para os demais colaboradores baixarem o seu projeto e criarem arquivos testes locais sem afetar o projeto principal (por meio de brances). 
+
+6. Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+
+Eu gostaria de usar os branches para desenvolver uma parte do projeto e em seguida pode adiciona-la ao projeto principal. O benefício da abordagem dos branches consiste em garantir maior segurança ao projet principal evitando bugs. Por outro lado, a abordagem de não usar branch é mais rápida, pois não é necessário fazer request entre o master branch e o demais branches.
+
